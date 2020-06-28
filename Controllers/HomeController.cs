@@ -19,5 +19,18 @@ namespace MVCDemo.Controllers
 
             return View();
         }
+
+        // action result is the view 
+        public ActionResult About()
+        {
+            ViewBag.Message = "your application description page";
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "your application contact page";
+            return View();
+        }
     }
 }

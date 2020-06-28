@@ -1,1 +1,2 @@
 ﻿<%@ Application Inherits="MVCDemo.Global" %>
+
